@@ -1,0 +1,104 @@
+customentity.node_controller_create_node:
+  path: '/createnode'
+  defaults:
+    _controller: '\Drupal\customentity\Controller\NodeController::createnode'
+    _title: 'CRUD Operations: Create Custom Node'
+  requirements:
+    _permission: 'access content'
+    
+    
+customentity.node_controller_update_custom_node:
+   path: '/updatenode/{node}'
+   defaults:
+    _controller: '\Drupal\customentity\Controller\NodeController::updatecustomnode'
+    _title: 'CRUD Operations: Update Custom Node'
+   requirements:
+      _permission: 'access content'
+   options:
+       parameters:
+           node:
+               type: entity:node
+               
+
+
+customentity.node_controller_delete_node:
+   path: '/deletenode/{node}'
+   defaults:
+    _controller: '\Drupal\customentity\Controller\NodeController::deletenode'
+    _title: 'CRUD Operations: Delete Custom Node'
+   requirements:
+      _permission: 'access content'
+   options:
+       parameters:
+           node:
+               type: entity:node
+               
+
+
+customentity.user_controller_create_user:
+  path: '/createuser'
+  defaults:
+    _controller: '\Drupal\customentity\Controller\UserController::createuser'
+    _title: 'CRUD Operations: Create Custom User'
+  requirements:
+    _permission: 'access content'
+    
+    
+customentity.user_controller_update_node:
+   path: '/updateuser/{user}'
+   defaults:
+    _controller: '\Drupal\customentity\Controller\UserController::updateuser'
+    _title: 'CRUD Operations: Update User'
+   requirements:
+      _permission: 'access content'
+   options:
+       parameters:
+           user:
+               type: entity:user
+               
+customentity.user_controller_delete_user:
+   path: '/deleteuser/{user}'
+   defaults:
+    _controller: '\Drupal\customentity\Controller\UserController::deleteuser'
+    _title: 'CRUD Operations: Delete Custom User'
+   requirements:
+      _permission: 'access content'
+   options:
+       parameters:
+           user:
+               type: entity:user
+               
+customentity.taxonomy_controller_create_term:
+  path: '/taxonomy'
+  defaults:
+    _controller: '\Drupal\customentity\Controller\TaxonomyController::createterm'
+    _title: 'CRUD Operations: Create Custom Taxonomy'
+  requirements:
+    _permission: 'access content'
+    
+    
+#customentity.taxonomy_controller_update_custom_term:
+#   path: '/updatecustomterm/{term}'
+#   defaults:
+#    _controller: '\Drupal\customentity\Controller\TaxonomyController::updatecustomterm'
+#    _title: 'CRUD Operations: Update Term'
+#   requirements:
+#      _permission: 'access content'
+#   options:
+#       parameters:
+#           term:
+#               type: entity:term
+               
+
+
+customentity.taxonomy_controller_delete_term:
+   path: '/deleteterm/{taxonomy_term}'
+   defaults:
+    _controller: '\Drupal\customentity\Controller\TaxonomyController::deleteterm'
+    _title: 'CRUD Operations: Delete Custom Term'
+   requirements:
+      _permission: 'access content'
+   options:
+       parameters:
+           term:
+               type: entity:term

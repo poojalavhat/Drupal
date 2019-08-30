@@ -1,0 +1,7 @@
+## YAML Template.
+---
+name: Custom Rest Api
+description: A simple module contains rest api
+core: 8.x;
+package: Custom
+type: module

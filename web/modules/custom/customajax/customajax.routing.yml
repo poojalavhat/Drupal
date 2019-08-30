@@ -1,0 +1,16 @@
+customajax.customajax_form:
+  path: '/AjaxExampleForm'
+  defaults:
+    _form: '\Drupal\customajax\Form\AjaxExampleForm'
+    _title: 'Ajax demo'
+  requirements:
+    _access: 'TRUE'
+    
+    
+customajax.customajaxdata_form:
+  path: '/AjaxDataForm'
+  defaults:
+    _form: '\Drupal\customajax\Form\AjaxDataForm'
+    _title: 'Ajax Demo'
+  requirements:
+    _access: 'TRUE'

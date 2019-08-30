@@ -1,0 +1,26 @@
+{# empty Twig template #}
+
+{%
+  set classes = [
+    'view-location',
+    'view-id-location',
+    'view-display-id-panel_pane_1',
+    'home-locations'
+  ]
+%}
+{% if is_front %}
+    <div{{ attributes.addClass(classes) }}>
+    {% else %}
+        <div{{ attributes }}>  
+        {% endif  %}
+        {{ title_prefix }}
+        {% if label %}
+            <h2{{ title_attributes }}>{{ label }}</h2>
+        {% endif %}
+        {{ title_suffix }}
+        {% block content %}
+            <div{{ content_attributes.addClass('content') }}>
+                {{ content }}
+            </div>
+        {% endblock %}
+    </div>

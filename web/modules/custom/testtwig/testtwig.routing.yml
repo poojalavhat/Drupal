@@ -1,0 +1,15 @@
+testtwig.testtwig:
+  path: '/testtwig'
+  defaults:
+    _controller: '\Drupal\testtwig\Controller\TestTwigController::content'
+    _title: 'Display Custom template'
+  requirements:
+    _permission: 'access content'
+
+testtwig.second_testtwig:
+  path: '/second/testtwig'
+  defaults:
+    _controller: '\Drupal\testtwig\Controller\TestTwigController::display'
+    _title: 'Display Second  Custom template'
+  requirements:
+    _permission: 'access content'

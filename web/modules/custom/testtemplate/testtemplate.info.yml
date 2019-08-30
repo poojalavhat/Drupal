@@ -1,0 +1,7 @@
+## YAML Template.
+---
+name: Template
+description: Created custom template
+core: 8.x
+package: custom
+type: module

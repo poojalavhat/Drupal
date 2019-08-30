@@ -1,0 +1,6 @@
+## YAML Template.
+---
+global-css:
+    css:
+        theme:
+            css/style.css: {}

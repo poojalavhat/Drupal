@@ -1,0 +1,6 @@
+name: Custom Excel
+description: Import the node data into excel
+core: 8.x
+package: custom
+type: module
+

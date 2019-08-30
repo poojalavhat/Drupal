@@ -1,0 +1,80 @@
+{# empty Twig template #}
+<div class="page-wrapper">
+    <div id="page">
+        <header id="navbar" role="banner" class="site-header navbar navbar-default">
+            <div class="header-container">
+                <a class="name navbar-brand site-title" href="/Drupal" title="Home">
+                    <img src="/Drupal/themes/custom/magazine/logo.svg">
+                </a>
+                {% if not is_front %}
+                    {{page.navigation}}
+                {% endif %}
+                {% if not is_front %}
+                    <div id="block-stone-collection-your-location" class="block block-stone-collection block-stone-collection-your-location">  
+                        <div class="content">
+                            <a href="/" id="your-location">Your Location <span class="location-name">{{city_name}}</span><input type="hidden" id="location" value="{{city_name}}"></a><a id="your-location" href="tel:+972.488.5700">972.488.5700</a>  </div>
+                    </div>
+                {% endif %}
+            </div>
+        </header>
+        {% if is_front %}
+            <div class="preface-first">
+                {{ page.preface }}
+                <div id="block-views-home-locaiton-block" class="block block-views block-views-home-locaiton-block">
+                    <div class="content">
+                        <div class="view view-home-locaiton view-id-home_locaiton view-display-id-block view-dom-id-cd4aa5c07e4775c85603b6718f3d7f0d">
+                            <div class="view-content">
+                                <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                    <div class="views-field views-field-body">
+                                        <div class="field-content">
+                                            <h3>Choose a Location</h3>
+                                            <p>See the most accurate selection of material</p>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+        <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
+            <div id="main" class="main-container">
+                <div class="bs-row">
+                    <section class="content">
+                        {{ page.content }}
+                    </section>
+                    <aside class="second" role="complementary">
+                        {{ page.left_sidebar }} 
+                    </aside>
+                </div>
+
+                {% if page.sidebar_first %}
+                    <div id="sidebar-first" class="column sidebar">
+                        <aside class="section" role="complementary">
+                            {{ page.sidebar_first }}
+                        </aside>
+                    </div>
+                {% endif %}
+                {% if page.sidebar_second %}
+                    <div id="sidebar-second" class="column sidebar">
+                        <aside class="section" role="complementary">
+                            {{ page.sidebar_second }}
+                        </aside>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer class="footer site-footer">
+    {#   <div class="footer-second">
+          
+       </div>#}
+    <div class="copyright">
+        <p>©2019 The Stone Collection. All Rights Reserved</p>
+        <p>Site design and build by <a href="https://www.newmediadenver.com">newmedia</a></p>
+        {{page.footer}}
+    </div>
+</footer>

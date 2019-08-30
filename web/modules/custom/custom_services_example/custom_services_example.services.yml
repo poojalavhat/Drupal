@@ -1,0 +1,5 @@
+## YAML Template.
+---
+services:
+ custom_services_example.custom_service:
+   class: Drupal\custom_services_example\HelloServices

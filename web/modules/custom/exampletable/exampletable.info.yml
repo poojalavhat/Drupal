@@ -1,0 +1,6 @@
+name: CustomTableView
+description: Create custom fields in views
+core: 8.x
+package: custom
+type: module
+

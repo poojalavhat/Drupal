@@ -1,0 +1,7 @@
+## YAML Template.
+---
+name: Test Twig
+description: Simple demo of creating custom template
+core: 8.x;
+package: Custom
+type: module

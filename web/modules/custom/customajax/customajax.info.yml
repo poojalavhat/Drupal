@@ -1,0 +1,8 @@
+## YAML Template.
+---
+name: Custom Ajax
+description: Demo of custom ajax
+core: 8.x
+package: custom
+type: module
+

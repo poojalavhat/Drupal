@@ -1,0 +1,102 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+/**
+* Implements hook_preprocess_HOOK() for page.html.twig.
+*/
+
+function magazine_preprocess_page(&$variables){
+    $request = \Drupal::request();
+    $route_match = \Drupal::routeMatch();
+  if ($route_match->getParameter('node')) {
+    $page_title = \Drupal::service('title_resolver')->getTitle($request, $route_match->getRouteObject());
+    $variables['city_name'] = $page_title;
+//    kint($variables['city_name']);
+  }
+   
+}
+
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for block templates.
+ */
+//function magazine_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+//  $block_id = $variables['elements']['#id'];
+// 
+//  /* Uncomment the line below to see variables you can use to target a block */
+//   print $variables . '<br/>';exit();
+// 
+//  /* Add classes based on the block id. */
+//  switch ($block_id) {
+//    /* Account Menu block */
+//    case 'account_menu':
+//      $suggestions[] = 'block__fancy';
+//      break;
+//  }
+//}
+//magazine_menu_link__menu_block__[block id number]()
+
+/**
+* Implements hook_preprocess_HOOK() for menu.html.twig.
+*/
+function magazine_preprocess_menu(&$variables) {
+    // Get the current path.
+    $current_path = \Drupal::request()->getRequestUri();
+      
+    $items = $variables['items'];
+    foreach ($items as $key => $item) {
+      // If path is current_path, set active to li.
+        
+      if ($item['url']->toString() == $current_path) {
+      // Add active link.
+      $variables['items'][$key]['attributes']['class'] = 'active';
+//      kint($variables['items'][$key]['attributes']['class']);
+      }
+    }
+  }
+
+    
+ /**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ *
+ * Adds body classes if certain regions have content.
+ */
+   function magazine_preprocess_html(&$variables){
+       if (!empty($variables['page']['left_sidebar'])) {
+    $variables['attributes']['class'][] = 'one-sidebar';
+    $variables['attributes']['class'][] = 'sidebar-second';
+    $variables['attributes']['class'][] = 'page-news';
+    $variables['attributes']['class'][] = 'html';
+  }
+   }
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+   
+  function magazine_preprocess_block(&$variables){
+//      ksm($variables);
+//      echo "<pre>";print_r($variables);
+      if($variables['attributes']['id']== "block-views-block-list-category-block-1"){
+           $variables['attributes']['class'][] = 'view';
+           $variables['attributes']['class'][] = 'view-blog';
+           $variables['attributes']['class'][] = 'view-id-blog';
+           $variables['attributes']['class'][] = 'view-display-id-page';
+//          kint($variables['attributes']); 
+              
+      }
+     
+      
+  }
+
+  
+  function magazine_links__system_main_menu($variables){
+      kint($variables);
+  }
+

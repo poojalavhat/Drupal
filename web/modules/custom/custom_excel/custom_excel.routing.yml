@@ -1,0 +1,7 @@
+custom_excel.custom_excel_form:
+  path: 'excelreport'
+  defaults:
+    _form: '\Drupal\custom_excel\Form\CustomNodeForm'
+    _title: 'Node Report'
+  requirements:
+    _access: 'TRUE'

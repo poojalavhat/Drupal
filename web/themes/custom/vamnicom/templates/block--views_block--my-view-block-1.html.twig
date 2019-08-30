@@ -1,0 +1,11 @@
+<h1>helloooo</h1>
+{% set my_attribute = create_attribute() %}
+<section >
+    <row>
+        {{ title_prefix }}
+            {% for row in content['#view'].result %}
+             <center> <h2>{{ content['#view'].field['title'].value(row) }}</h2></center>
+            {% endfor %}
+        {{ title_suffix }}        
+    </row>
+  </section>

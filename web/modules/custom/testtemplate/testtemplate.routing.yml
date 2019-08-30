@@ -1,0 +1,9 @@
+testtemplate.testtemplate:
+  path: '/custom/testtemplate'
+  defaults:
+    _controller: '\Drupal\testtemplate\Controller\TestTwigController::content'
+    _title: 'display'
+  requirements:
+    _permission: 'access content'
+
+

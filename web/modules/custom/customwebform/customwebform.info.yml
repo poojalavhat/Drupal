@@ -1,0 +1,10 @@
+## YAML Template.
+---
+
+name: Custom WebForm
+description: Stored Webform data in custom table.
+core: 8.x
+package: custom
+type: module
+dependencies[]: webform
+

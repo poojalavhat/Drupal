@@ -1,0 +1,37 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+    
+
+function customblock_theme($existing, $type, $theme, $path){
+    return [
+    'block__views_block__demoblock_block_1' => [
+      'template' => 'block--views-block--demoblock-block-1',
+      'base hook' => 'block',
+    ],
+  ];
+}
+
+
+//function customblock_preprocess(&$variables, $hook){
+//
+//    if($hook == 'menu'){
+//        foreach($variables['items'] as  &$items ){
+//            $items['title'] = $items['title']. 'en';
+//        }
+//    }
+//}
+
+//function customblock_preprocess_menu(&$variables){
+////    kint($variables);
+//    foreach($variables['items'] as  &$items ){
+//            $items['title'] = $items['title']. 'en';
+//        }
+//}
+

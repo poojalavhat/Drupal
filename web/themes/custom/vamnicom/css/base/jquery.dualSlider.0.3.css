@@ -1,0 +1,173 @@
+/* CAROUSEL */
+
+.carousel{
+    margin:  0 0 0 0;
+    position:relative;
+    height: 308px;
+    width: 964px;
+    overflow:hidden;    
+}
+
+.carousel h2{
+	color: #fff;
+}	
+
+
+.carousel .backgrounds{
+    height: 308px;
+}
+
+.carousel .backgrounds .item{
+    height: 308px;
+    width: 964px !important;
+    float:left;
+    position:relative;
+    z-index:1;
+}
+
+/*.carousel .backgrounds .item_1{
+    height: 308px;
+    width: 451px;
+}
+
+.carousel .backgrounds .item_2{
+    height: 308px;
+    width: 451px;
+}
+
+.carousel .backgrounds .item_3{
+    height: 308px;
+    width: 451px;
+}
+
+.carousel .backgrounds .item_4{
+    height: 308px;
+    width: 451px;
+}
+
+.carousel .backgrounds .item_5{
+    height: 308px;
+    width: 451px;
+}*/
+
+.carousel .panel{
+    background:url(../images/slider_bg.jpg);
+	background-position:top left;
+	background-repeat:repeat-x;
+    color: #fff;
+    position:absolute;
+    right: 0;
+    top:0;
+    height: 308px;
+    width: 275px;
+    z-index:10;
+}
+
+.carousel .panel .paging{
+    position:absolute;
+    bottom: 16px;
+    left: -28px;
+    width: 228px;    
+    text-align:center;   
+}
+
+.carousel .panel .paging a{
+    background: none repeat scroll 0 0 #62E194;
+    border: 0px solid #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    color: #014619;
+    font-size: 13px;
+    font-weight: bold;
+	box-shadow: 0 0 4px #333333;
+}
+
+.carousel .panel .pause{
+    position:absolute;
+    right:20px;
+    top:25px;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(../images/carousel_pause_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .play{
+    position:absolute;
+    right:20px;
+    top:25px;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(../images/carousel_play_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+
+.carousel .panel .paging .next{
+    position:absolute;
+    right:0;
+    bottom:0;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(../images/carousel_next_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .paging .previous{
+    position:absolute;
+    left:0;
+    bottom:0;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(../images/carousel_previous_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .paging #numbers a {
+    margin: 0 3px;
+    padding: 3px 8px;
+	text-decoration:none;
+}
+
+.carousel .panel .paging #numbers a.selected {
+    background: none repeat scroll 0 0 #EFEDEE;
+    color: #110C08;
+}
+
+
+
+.carousel .panel .details_wrapper {
+    left:25px;
+    width: 265px;
+	padding: 38px 0 0 10px;
+    overflow:hidden;
+    height: 180px;
+}
+
+.carousel .panel .details_wrapper .details{
+    height: 265px;
+}
+
+.carousel .panel .details_wrapper .details .detail{
+    width: 245px;
+	padding:0 10px;
+    height: 180px;
+    float:left;
+    
+}
+
+.carousel .panel .details_wrapper .details h2{
+    font-size: 1.9em;
+    line-height: 1.2em;
+    margin: 0 0 5px 0;
+}
+
+.carousel .panel .details_wrapper .details a.more{
+    color: #fff;
+    font-size:1.1em;
+}   
+
+/* END CAROUSEL */

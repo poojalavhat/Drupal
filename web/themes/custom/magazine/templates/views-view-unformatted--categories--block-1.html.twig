@@ -1,0 +1,12 @@
+{# empty Twig template #}
+
+
+{% if title %}
+    <h3>{{ title }}</h3>
+{% endif %}
+{% for row in rows %}
+    {% set parity = cycle(['views-row-odd', 'views-row-even'], loop.index0) %}
+    <div{{ row.attributes.addClass(parity) }}>
+        {{ row.content }}
+    </div>
+{% endfor %}

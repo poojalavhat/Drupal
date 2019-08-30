@@ -1,0 +1,7 @@
+## YAML Template.
+---
+name: Custom Plugin 
+description: Created Custom plugin like filter,argument and display.
+core: 8.x
+package: custom
+type: module

@@ -1,0 +1,115 @@
+<div id="MainWrap">
+  <div id="HeaderWrap"><!--HeaderWrap Start-->
+      <div class="header-main">
+          <div class="toplinks"><!--TOPLINKS START-->
+              <ul>
+                  {{ page.top_links }}
+              </ul>
+          </div><!--TOPLINKS END-->
+          <div class="header"><!--LOGO N NAME START-->
+              {{page.header}}
+                 
+                  <div class="ncct-logo">
+                      <img src="sites/all/themes/vamnicom/images/ncct-logo.jpg" width="104" height="91" alt="ncct" style="display:none;"/>
+                  </div>
+                  <div class="clear"></div>
+          </div><!--LOGO N NAME END-->
+          <div class="menu-con"><!--MENU START-->
+              <ul class="main-menu">
+                  <div id="main-menu" class="navigation">
+                      <div id="main-menu-links" class="links clearfix">
+                          {{ page.nice_menu }}
+                      </div>
+                  </div>
+              </ul>
+              <div class="searchbar">
+                  {{ page.search_bar }}
+              </div>
+          </div><!--MENU END-->
+      </div>
+  </div><!--HeaderWrap End--> 
+  <div id="ContWrap" class="layout-main-wrapper layout-container clearfix">
+      <div id="main" class="layout-main clearfix">
+          <main id="content" class="column main-content" role="main">
+              <section class="section">
+                  <a id="main-content" tabindex="-1"></a>
+                  <div class="banner">
+                    <div class="carousel clearfix">
+                          <div class="row">
+                              <div class="col-sm-6">
+                                   
+                              </div>
+                              <div class="col-sm-6"> 
+                                  {{page.homepage_slider}}
+                              </div>
+                          </div>         
+                      </div><!-- /carousel -->
+                  </div> 
+                  <div class="left-con"><!--LEFT CONTENT START-->
+
+                      <div class="courses"><!--COURSES START-->
+                          {{ page.education }}
+                      </div><!--COURSES END-->
+
+                      <div class="wlcm-con" style="border-bottom:1px solid #D8D8D8;">
+                          {{page.miscellaneous}}
+                          <div class="clear"></div>
+                      </div>
+
+                      <div class="facilities"><!--FACILITY START-->
+                          {{ page.facilities1 }}
+                      </div><!--FACILITY END-->
+
+                      <div class="facilities" style="border-bottom:1px solid #d8d8d8;"><!--FACILITY START-->
+                          {{ page.facilities }}
+                      </div><!--FACILITY END-->
+
+                      <div class="wlcm-con">
+                          {{page.rcs_opportunities}}
+                          <div class="clear"></div>
+                      </div>  
+                  </div><!--LEFT CONTENT END-->
+                  </div>
+                  <div class="right-con"><!--RIGHT CONTENT START-->
+                      <div class="rbox2"><!--NEWS START-->
+                          <h1><a href="{{ url('<front>') }}Whats-new" style="text-decoration: none; color: black; margin-right: 20px;"> Whats New </a> |
+                          <a href="{{ url('<front>') }}tenders" style="text-decoration: none; color: black; margin-left: 20px;">
+                          Tenders</a> 
+                          <a href="{{ url('<front>') }}tenders" class="c-speech2"><img src="{{ url('<front>') }}sites/all/themes/vamnicom/images/more-icon-2.png" width="12" height="12" alt="more" /></a></h1>
+                      </div>
+                      <div class="rbox2"><!--NEWS START-->
+                          <h1> News and Announcements</h1>
+
+                          {{ page.news_events }}
+                          
+                      </div><!--NEWS END-->
+                      <!--<div class="notice-con">
+                          <div class="notice-top"></div>
+                           <div class="notice-mid">
+                              <h1> Notice Board  </h1>
+                              <ul>
+                                  {{ page.news_events }}
+                              </ul>
+                          </div> 
+                          <div class="notice-btm"></div> -->
+                      </div> 
+                  </div><!--RIGHT CONTENT END-->
+                  <div class="clear"></div>
+              </section>
+          </main>
+      </div>
+  </div>
+   <div id="ex1" class="modal">
+      <p>Thanks for clicking. That felt good.</p>
+      <a href="#" rel="modal:close">Close</a>
+  </div>
+  <!-- Modal HTML embedded directly into document -->
+    <div id="ex1" class="modal">
+      <p>Thanks for clicking. That felt good.</p>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+
+<!-- Link to open the modal -->
+  <p><a href="http://localhost/drupaltranslation/contact_form" rel="modal:open">Open Modal</a></p>
+  {{page.footer}}
+</div>

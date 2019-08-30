@@ -1,0 +1,43 @@
+<div id="MainWrap">
+    <div id="HeaderWrap"><!--HeaderWrap Start-->
+        <div class="header-main">
+            <div class="toplinks"><!--TOPLINKS START-->
+                <ul>
+                    {{ page.top_links }}
+                </ul>
+            </div><!--TOPLINKS END-->
+            <div class="header"><!--LOGO N NAME START-->
+                {{page.header}}
+                   
+                    <div class="ncct-logo">
+                        <img src="sites/all/themes/vamnicom/images/ncct-logo.jpg" width="104" height="91" alt="ncct" style="display:none;"/>
+                    </div>
+                    <div class="clear"></div>
+            </div><!--LOGO N NAME END-->
+            <div class="menu-con"><!--MENU START-->
+                <ul class="main-menu">
+                    <div id="main-menu" class="navigation">
+                        <div id="main-menu-links" class="links clearfix">
+                            {{ page.nice_menu }}
+                        </div>
+                    </div>
+                </ul>
+                <div class="searchbar">
+                    {{ page.search_bar }}
+                </div>
+            </div><!--MENU END-->
+        </div>
+    </div><!--HeaderWrap End--> 
+    <div id="ContWrap" class="layout-main-wrapper layout-container clearfix">
+        <div id="main" class="layout-main clearfix">
+          
+          <main id="content" class="column main-content" role="main">
+            <section class="section">
+              <a id="main-content" tabindex="-1"></a>
+              {{ page.content }}
+            </section>
+          </main>
+        </div>
+      </div>
+    {{page.footer}}
+  </div>

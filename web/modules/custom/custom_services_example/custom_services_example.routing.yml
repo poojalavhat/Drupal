@@ -1,0 +1,7 @@
+custom_services_example.service_display:
+  path: '/servicedisplay'
+  defaults:
+    _controller: '\Drupal\custom_services_example\Controller\HelloController::HelloTest'
+    _title: 'Custom Service Container'
+  requirements:
+    _permission: 'access content'

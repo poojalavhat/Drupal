@@ -1,0 +1,974 @@
+.not-logged-in #site-slogan{
+	text-align: center;
+}
+.page-user #block-system-main .content, .page-alumni-user .inner_right .inner-con, .page-node-333 #block-system-main .content {
+	border: 1px dashed #D9DBDD !important;
+}
+.page-alumni-user .inner_right .inner-con{
+	padding:  5px;
+}
+.page-alumni-user .tabs {
+	display: none;
+}
+.page-user.not-logged-in #block-system-main .content {
+	border: none !important;
+}
+.form-wrapper, .field-group-fieldset
+{
+	border: none !important;
+}
+/*User Profile and Registration CSS*/
+#user-profile-form label,
+#user-register-form label {
+	color: #6f6f6f;
+	font-size: 12px;
+	font-weight: normal;
+	float: left;
+	margin-right: 15px;
+	min-width: 165px
+}
+#user-profile-form input,
+#user-register-form input {
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 1px 1px #CCCCCC inset, 0 1px 0 #FFFFFF;
+	height: 30px;
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+
+#edit-additional-fields legend, #edit-profile-alumni-profile .field-group-fieldset legend, .page-alumni-user .field-group-fieldset legend{
+	background: #cccccc;
+	color: #1E4087;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 10px;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	
+}
+
+#edit-additional-fields span.fieldset-legend a.fieldset-title,
+#user-register-form .field-group-fieldset .fieldset-legend  
+a.fieldset-title {
+	text-decoration: none;
+	color: #1E4087;
+}
+
+#profile-alumni-profile-field-date-of-birth-add-more-wrapper .date-processed legend {
+	background :none !important;
+	padding:0px !important;
+	width : auto !important;
+}
+#user-register-form fieldset.collapsible .fieldset-legend {
+	background: none !important;
+}
+#user-profile-form select,
+#user-register-form select{
+	background-color: #F1F1F1;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 1px 1px #CCCCCC inset, 0 1px 0 #FFFFFF;
+	width: 200px;
+	color: #6f6f6f;
+	padding: 5px 2px
+}
+#profile-alumni-profile-field-date-of-birth-add-more-wrapper span.fieldset-legend {
+	color: #6f6f6f;
+	font-size: 12px;
+	font-weight: normal;
+	margin-right: 18px;
+	margin-left : -16px;
+	min-width: 165px;
+}
+#profile-alumni-profile-field-date-of-birth-add-more-wrapper select {
+	width: 100px !important;
+}
+#profile-alumni-profile-field-date-of-birth-add-more-wrapper .form-type-select {
+	margin-right: -100px;
+}
+#profile-alumni-profile-field-date-of-birth-add-more-wrapper .date-processed legend {
+	float: left;
+	margin-top:15px;
+}
+#profile-alumni-profile-field-date-of-birth-add-more-wrapper .date-processed .fieldset-wrapper {
+	float: left;
+	width: 400px;
+	margin-top: -25px;
+	margin-left: 12px;
+}
+#edit-profile-alumni-profile-field-pre-work-experience-und-1,
+#edit-profile-alumni-profile-field-permanent-address-und-1 {
+	margin-left: -60px;
+	margin-top: -6px;
+}
+#edit-profile-alumni-profile-field-pre-work-experience-und .form-item-profile-alumni-profile-field-pre-work-experience-und-1 label{
+	margin-left: 25px;
+}
+
+#user-register-form #edit-account {display : none; }
+#user-register-form #edit-actions input {
+	margin: 0px !important;
+	width : 150px !important;
+}
+/*Label and field Allignments*/
+/*
+#user-profile-form  #edit-profile-alumni-profile-field-organization-sector-tex label,
+#user-profile-form #edit-profile-alumni-profile-field-organization-sector-tex-2 label,
+#user-profile-form  #edit-profile-alumni-profile-field-permanent-address label,
+#user-profile-form  #edit-profile-alumni-profile-field-pre-work-experience label
+#user-register-form  #edit-profile-alumni-profile-field-permanent-address label,
+#user-register-form  #edit-profile-alumni-profile-field-permanent-address label,
+#user-register-form  #edit-profile-alumni-profile-field-pre-work-experience label {margin-left: 20px;}
+*/
+
+/*#user-register-form  #edit-profile-alumni-profile-field-organization-sector-tex label,
+#user-register-form  #edit-profile-alumni-profile-field-organization-sector-tex-2 label 
+{margin-left: 18px;}
+*/
+#user-register-form .password-field {
+	float: left;
+margin-top: -54px;
+margin-left: 220px;
+
+}
+#user-register-form #edit-pass-pass2--2 {
+	margin-left:42px;
+}
+/*#user-register-form .form-item-pass-pass2 label,
+#user-register-form .form-item-pass-pass1 label{
+	margin-left: 24px;
+}
+*/
+#user-register-form .password-strength {
+	position: relative;
+	top: 16px
+}
+#edit-profile-alumni-profile-field-date-of-birth {margin-bottom:-40px;}
+#edit-profile-alumni-profile-field-pre-work-experience {margin-bottom: -20px;}
+fieldset#profile2_alumni_profile_form_group_contact_info .fieldset-wrapper,
+fieldset#profile2_alumni_profile_form_group_personal_info .fieldset-wrapper {
+	margin-top: 15px;
+}
+fieldset#edit-profile-alumni-profile span.fieldset-legend:first {
+	display:none;
+}
+.password-suggestions {
+	margin-left: 204px !important;
+	width: 300px !important;
+	color: #6f6f6f;
+	font-size: 12px !important;
+}
+
+/*For Firefox*/
+@-moz-document url-prefix() { 
+#user-register-form input {
+  	width : 400px !important;
+  }
+  
+#edit-profile-alumni-profile-field-pre-work-experience-und-1,
+#edit-profile-alumni-profile-field-permanent-address-und-1 {
+	margin-left: -60px;
+	margin-top: 1px !important;
+}
+#edit-pass-pass2--2 {
+	margin-left : 222px !important;
+	float:left;
+	margin-top:-17px;
+}
+#user-register-form .form-item-pass-pass2 label{ margin-top: 40px; float:left;}
+#user-profile-form .password-suggestions {
+	margin-top: 10px !important;
+	margin-left: 174px !important;
+	width: 300px;
+	color: #6f6f6f;
+	font-size: 12px !important;
+}
+#user-profile-form .password-confirm {
+	float: none !important;
+}
+#user-profile-form .password-strength {
+	position: relative;
+	top: 16px
+}
+#user-profile-form .form-item-pass-pass2 {
+	margin-top: -10px;
+}
+#edit-additional-fields .password-suggestions.description{
+	margin: 88px 56px 0 32px;
+}
+}
+#user-profile-form .password-suggestions {
+	margin-top: 10px !important;
+	margin-left: 174px !important;
+	width: 300px;
+	color: #6f6f6f;
+	font-size: 12px !important;
+}
+/*Alumni Profile Page*/
+#user-profile-form .field-group-fieldset legend{
+ 	margin: 0;
+	padding: 10px 0 10px 10px;
+	font-size: 14px;
+	background-color: #ccc;
+	font-weight: bold;
+	width: 99%;
+ }
+#user-profile-form .field-group-fieldset legend span a.fieldset-title {
+	color: #333;
+	text-decoration: none;
+}
+#user-profile-form .field-group-fieldset legend span.fieldset-legend {
+	background: none !important; 
+}
+#user-profile-form input{
+	margin: 0px 0px 15px 2px !important;
+}
+#user-profile-form #edit-profile-alumni-profile-field-pre-work-experience-und-1 {margin-left:-80px;}
+#user-profile-form .form-type-checkbox  {
+	margin: -20px 0 0 204px;
+}
+#user-profile-form #profile2_alumni_profile_form_group_work_exp .fieldset-wrapper {
+	margin-top: 20px;
+}
+#user-profile-form #edit-profile-alumni-profile-field-date-of-birth {
+	float:left;
+}
+#user-profile-form #edit-profile-alumni-profile-field-date-of-birth-und-0-value {
+	width: 400px;
+}
+#user-profile-form #edit-profile-alumni-profile-field-date-of-birth #profile-alumni-profile-field-date-of-birth-add-more-wrapper
+.form-type-date-select #edit-profile-alumni-profile-field-date-of-birth-und-0-value .form-type-select {
+	float:left;
+	width : 206px !important;
+}
+
+@-moz-document url-prefix() { 
+#user-profile-form .field-group-fieldset {
+	float: left; 
+	width: 100%; 
+}
+}
+
+/*Profile view*/
+.view-alumni-profile .views-row .views-field  span.views-label {
+	float:left;
+	margin-right:20px;
+}
+.view-alumni-profile .views-row .views-field span.views-label {
+	width: 200px;
+}
+.view-display-id-page .views-row .views-field-nothing {
+	float:none !important;
+}
+ .view-display-id-page .views-row span.fieldset-legend-profile {
+	background: #cccccc;
+	color: #333;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 10px;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	float: left;
+	margin-bottom: 5px;
+}
+.view-alumni-profile .views-row span.field-content a.username {
+	margin: 0;
+	padding: 0px 0 0px 10px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #26488c;
+	border-bottom: 1px dotted #ccc;
+	text-decoration: none
+}
+.view-alumni-profile .views-row .views-label,
+.view-alumni-profile .views-row .field-content {
+	color: #333;
+	font-size: 12px;.
+	line-height: 18px;
+}
+.view-alumni-profile .views-row .views-field-field-organization-sector-tex-2,
+.view-alumni-profile .views-row .views-field-field-mobile-number,
+.view-alumni-profile .views-row .views-field-field-first-name {
+	margin-top: 10px;
+}
+.view-alumni-profile .views-row .views-field-field-landline-number-1,
+.view-alumni-profile .views-row .views-field-field-date-of-birth {
+	margin-bottom: 10px;
+}
+.view-alumni-profile .views-row .views-field {
+	padding-bottom: 5px;
+}
+/*Sitemap page CSS*/
+.page-sitemap #site-map .site-map-taxonomys h2.title a {
+	margin: 0;
+	/*padding: 10px 0 5px 0;*/
+	font-size: 16px;
+	font-weight: normal;
+	color: #26488c;
+	border-bottom: 1px dotted #ccc;
+	text-decoration : none;
+}
+.page-sitemap #site-map  h2.title {
+	margin: 0;
+	/*padding: 10px 0 5px 0;*/
+	font-size: 16px;
+	font-weight: normal;
+	color: #26488c;
+	border-bottom: 1px dotted #ccc;
+}
+.page-sitemap #site-map .site-map-box-menu-menu-multilingual-main-menu ul.site-map-menu li.expanded a{
+	text-decoration : none;
+	font-size: 16px;
+	font-weight: normal;
+	color: #26488c;
+}
+.site-map-taxonomys .content .description,
+.site-map-taxonomys .content  ul li a, 
+.page-sitemap #site-map .site-map-box-front .content a,
+.page-sitemap #site-map .content li.leaf a {
+	color: #333 !important;
+	text-decoration:none;
+	font-size: 12px;
+}
+ 
+.page-sitemap #site-map .site-map-taxonomys .site-map-box-terms ul li {
+	list-style-type: none !important;
+	list-style-image: url('../../../../../misc/menu-leaf.png');;
+}
+
+
+/*Allignments and Subtle CSS*/
+.page-node-103 #node-104 .content .field-name-body ol {
+	font-size: 12px;
+	color: #333333
+}
+
+.page-node-103 #webform-component-contact-details--e-mail label,
+.page-node-103 #webform-component-contact-details--mobile label,
+.page-node-103 #webform-component-contact-details--telephone label,
+.page-node-103 #webform-component-contact-details--designation label,
+.page-node-103 #webform-component-contact-details--name label,
+.page-node-103 #webform-component-desired-period label,
+.page-node-103 #webform-component-training-requirements label,
+.page-node-103 #webform-component-address label,
+.page-node-103 #webform-component-org-name label {
+	text-align : right;
+} 
+.page-node-108 #webform-component-name label,
+.page-node-108 #webform-component-address label,
+.page-node-108 #webform-component-brief-of-collaborative-activity-proposed label,
+.page-node-108 #webform-component-brief-of-collaborative-activity-proposed label,
+.page-node-108 #webform-component-contact-details--contact-name label,
+.page-node-108 #webform-component-contact-details--designation label,
+.page-node-108 #webform-component-contact-details--telephone label,
+.page-node-108 #webform-component-contact-details--mobile label,
+.page-node-108 #webform-component-contact-details--e-mail-id label {
+	text-align: right;
+}
+
+.page-node-103 #webform-component-org-name {
+	width: 550px;
+} 
+.page-node-103 #webform-client-form-105 #webform-component-org-name label{
+	width:143px;
+	margin-left: -11px;
+}
+/*Table Structer CSS in hindi pages*/
+.page-node-284 #node-284 .content table tr.row1,
+.page-node-356 #node-356 .content table tr.row1,
+.page-node-361 #node-361 .content table tr.row1,
+.page-node-107 #node-107 .content table tr.row1,
+.page-node-106 #node-106 .content table tr.row1 {
+	 background-color: #95DAF9;
+	color: #25437F;
+	font-weight: bold;
+	font-size: 12px;
+}
+.page-node-284 .content .field-name-body table tr td,
+.page-node-356 .content .field-name-body table tr td,
+.page-node-361 .content .field-name-body table tr td,
+.page-node-107 .content .field-name-body table tr td,
+.page-node-106 .content .field-name-body table tr td{
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	padding: 8px 5px;
+}
+.page-node-284 #node-284 .content h3,
+.page-node-356 #node-356 .content h3,
+.page-node-107 .content h3{
+	text-align: center;
+	font-size: 15px;
+	margin: 10px;
+	color: #25437F;
+}
+.page-node-284 #node-284 .content h3{
+margin-left: -50px;
+}
+#block-news-news-events .content ul.newsbox li a {text-decoration: none !important;}
+
+/*Hindi Menu CSS*/
+
+li#menu-719-1 a,
+li#menu-717-1 a,
+li#menu-737-1 a,
+li#menu-739-1 a,
+li#menu-741-1 a,
+li#menu-715-1 a,
+li#menu-743-1 a {
+	padding: 12px 30px 11px !important;
+}
+li#menu-719-1 a:hover,
+li#menu-717-1 a:hover,
+li#menu-737-1 a:hover,
+li#menu-739-1 a:hover,
+li#menu-741-1 a:hover,
+li#menu-715-1 a:hover,
+li#menu-743-1 a:hover {
+	padding: 12px 30px 11px !important;
+}
+/*Changes Done for Main menu*/
+#HeaderWrap .header-main .menu-con .main-menu{
+padding: 0 0 0 0 !important;
+}
+#HeaderWrap .header-main .menu-con .searchbar{
+margin: 0 0 0 0 !important;
+}
+#HeaderWrap .header-main .header{
+height: 155px !important;
+}
+#HeaderWrap .header-main .toplinks ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+.page-node-1563 .inner_right {
+    width: 100% !important;
+}
+#HeaderWrap .header-main .menu-con .main-menu li a {
+  padding: 12px 11px 11px !important;
+}
+
+.view-pgdbm-compliance th {
+  background: #95daf9 none repeat scroll 0 0;
+  border: 1px solid #cccccc;
+  color: #25437f;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 5px;
+  text-align: center;
+}
+.view-pgdbm-compliance td {
+  background: #fff;
+  border: 1px solid #cccccc;
+  color: #000;
+  font-size: 12px;
+  padding: 8px 5px;
+  text-align: center;
+  font-weight: normal;
+}
+.view-pgdbm-compliance table {
+    width: 100%;
+}
+.searchbar .region-search-bar #block-search-form .content {
+margin: 0px 0px 0px -80px;
+}
+#menu-1524-1, #menu-742-1 {
+	background:none !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+li#menu-741-1 a:hover {
+	width: 31px !important;
+}
+}
+.page-node-359 #quicktabs-program_calender_hindi ul.quicktabs-tabs li {
+	width: 39px;
+	text-align: center;
+}
+.page-node-359 #node-359 .content {
+	border:none !important;
+    float: left;
+    left: 435px;
+    position: relative;
+    top: -55px;
+    width: 50%;
+    margin-bottom: -60px !important;
+}
+.page-node-103 #node-105,
+.page-node-108 #node-110 {
+	margin-top: -60px;
+}
+/*alignments-- form Stabilization*/
+.page-node-108 #webform-component-name input {
+	width:250px !important;
+}
+.page-node-108 .webform-component #edit-submitted-address {
+	margin-left : 0px !important;
+}
+.page-node-108 #webform-component-contact-details--e-mail-id input{
+	width : 250px;
+}
+.page-node-108 #webform-client-form-110 #webform-component-name label {
+	width: 150px !important; 
+}
+.page-node-108 #webform-client-form-110 #webform-component-name #edit-submitted-name--2 {
+	margin-left: 2px !important;
+}
+.page-node-108 #webform-component-address #edit-submitted-address,
+.page-node-108 #webform-component-brief-of-collaborative-activity-proposed #edit-submitted-brief-of-collaborative-activity-proposed {
+	width: 262px !important;
+}
+#webform-component-contact-details legend span a{
+	text-decoration: none;
+color: #000;
+}
+#webform-component-contact-details legend span {
+	background:none !important;
+}
+
+/*Opportunity forms*/
+.page-opportunities #webform-client-form-147 {
+/*margin-top : -70px !important;*/
+}
+.page-alumni-opportunities #webform-client-form-147 {
+	margin-top : 0px !important;
+}
+.page-alumni-opportunities #webform-client-form-147 #edit-actions #edit-submit {
+	margin: 5px 0px 0px 179px !important;
+	float: none !important;
+}
+
+.page-opportunities #lightbox #ContWrap .page-title,
+.page-alumni-opportunities #lightbox #ContWrap .page-title {
+	float:left;
+	width: 15%;
+}
+.page-alumni-opportunities #block-system-main .content .node .content #edit-actions {
+	margin-top:17px !important;
+	float: none !important;
+}
+.page-node-357 #node-357 .content ul {
+	padding: 10px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 18px;
+	margin-left: 35px;
+}
+
+.page-node-5 #block-admission-form-pgdcbm-block .content .item-list,
+.page-node-297 #block-admission-form-dmco-block .content .item-list,
+.page-node-287 #block-admission-form-pgdm-block .content .item-list {
+	margin-left:-15px;
+} 
+
+
+.page-gallery #lightbox .page-node-276 #node-276 .content .form-type-item,
+.page-node-383 #quicktabs-tabpage-subscribe_hindi-1 #node-136 .content .form-type-item,
+.page-node-131 #node-131 .content .form-type-item,
+.page-node-138 #quicktabs-tabpage-subscribe-1 #node-136 .content .form-type-item {
+	display: none;
+}
+.page-node-138 #node-136 #webform-client-form-136 #edit-submit--3 {
+	margin: 1px 0 20px 179px;
+}
+.page-alumni-opportunities .view-job-posting .view-header {
+	float:right;
+	margin-top	: -30px;
+}
+#node-345 #webform-client-form-345 .webform-component-textarea label {
+	margin-right : 10px;
+}
+#node-345 #webform-client-form-345 #edit-actions #edit-submit{
+	margin: 67px 0 0 -376px !important;
+}
+#webform-client-form-147 #edit-actions #edit-submit{
+	margin: 100px 0 0 -376px !important;
+}
+#node-147 #webform-client-form-147 #edit-submitted-upload-remove-button {
+	width: 60px;
+	float: right;
+	margin-right: 50px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#webform-client-form-147 .file-upload-js-error {
+margin-top : 41px !important;	
+}
+
+}
+/*Alumni Job Posting Page-- lightbox*/
+.page-node-add-alumni-jobs-posting #ContWrap .baner_alumini,
+.page-node-add-alumni-jobs-posting #ContWrap .alumni_nav,
+.page-node-add-alumni-jobs-posting #ContWrap .inner_banner,
+.page-node-add-alumni-jobs-posting #HeaderWrap,
+.page-node-add-alumni-jobs-posting .region-footer,
+.page-node-add-alumni-jobs-posting #body-add-more-wrapper .filter-wrapper, 
+.page-node-add-alumni-jobs-posting ul.brdcrumbs,
+.page-node-add-alumni-jobs-posting  #alumni-jobs-posting-node-form #edit-preview  {
+	display : none;
+}
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form .form-actions {
+	margin: 41px 0 0 165px !important;
+	
+}
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form {
+	height: 500px !important;
+}
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form  #edit-actions input{
+	
+	/*margin-left: 300px !important;*/
+	margin:0px !important;
+}
+.page-node-add-alumni-jobs-posting #body-add-more-wrapper .form-item-field-advertisement-und-0 label, 
+.page-node-add-alumni-jobs-posting #body-add-more-wrapper .form-item-body-und-0-value label {
+	float: none !important;
+} 
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form #edit-field-advertisement-und-0-upload {
+	float: left !important;
+}
+.page-node-add-alumni-jobs-posting #ContWrap {
+	width: 749px !important;
+}
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form .field-name-body .form-item-body-und-0-value #edit-body-und-0-value {
+	width: 328px;
+	margin-left: 210px;
+}
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form .form-item-title label {
+	margin-right:-50px;
+	
+}
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form #edit-body .form-item-body-und-0-value .form-textarea-wrapper {
+	margin-left: -50px;
+}
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form input{
+	padding: 5px;
+}
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form #edit-field-advertisement #edit-field-advertisement-und-0-ajax-wrapper .form-item-field-advertisement-und-0 label,
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form .form-type-textarea label,
+.page-node-add-alumni-jobs-posting #alumni-jobs-posting-node-form .form-item-title label  {
+	color: #808080;
+}
+.page-gallery .view-display-id-page .views-row-first .views-field-php {
+	float: right !important;
+	margin-top:9px;
+}
+.page-gallery .view-display-id-page .page-title {
+	float:none !important;
+} 
+.page-node-2 #node-1 h2 a {
+	padding: 10px 0;
+	font-weight: normal;
+	font-size: 22px;
+	color: #1f9a4a;
+	text-decoration: none;
+}
+.page-node-362 #node-388 .content ol {
+	margin: 1px 6px 12px 0px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 18px;
+}
+.page-node-359 #quicktabs-container-program_calender_hindi .view-job-posting .views-table caption {
+	text-align: left;
+	font-size: 18px;
+	background: none !important;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #1F9A4A;
+}
+.page-node-359 .view-job-posting table th {
+	font-size: 12px;
+}
+.page-node-359 .view-job-posting table tr td{
+	text-align:left;
+}
+
+.page-node-359 #node-359 .content {
+width : 60% !important;
+}
+.header #site-slogan {
+width: 620px;
+}
+@-moz-document url-prefix() { 
+.header ul.lang .region-language-switcher {
+margin-top	: 10px;
+}
+}
+.header ul.lang .region-language-switcher {
+margin-top	: 15px;
+} 
+.i18n-en #block-gtranslate-gtranslate {
+	position: absolute;
+	top: 0px;
+	left: 1025px;
+	margin-top: -3px !important;
+
+} 
+.i18n-hi #block-gtranslate-gtranslate {
+	left: 1025px;
+	position: absolute;
+	top: 0;
+}
+.i18n-hi #block-gtranslate-gtranslate #google_translate_element{
+	margin-top:-2px !important; 
+}
+.i18n-hi #block-block-17{
+	float: right;
+	margin-right: 161px;
+	width: 30%;
+}
+#block-gtranslate-gtranslate h2{
+	display:none !important;
+}
+.i18n-en #block-block-8 {
+	 margin-top: -6px;
+	left: 952px;
+	position: absolute;
+}
+.i18n-en #block-block-2{
+	float: right;
+	margin-right: 160px;
+	width: 30%;
+}
+.i18n-hi #block-block-8 {
+	float: left;
+	left: 949px;
+	position: absolute;
+	top: 126px;
+}
+.page-opportunities .view-job-posting .view-header{padding: 5px;margin-bottom:5px;}
+.page-opportunities .view-job-posting .view-header,
+.page-node-287 #node-288 .field-name-body ul li,
+.page-node-362 #node-362 .field-name-body ol li,
+.page-node-69 #node-69 .field-name-body ul li,
+.page-node-297 #node-34 .field-name-body ol li,
+.page-node-297 #node-34 .field-name-body ul li,
+.page-node-287 #node-286 .field-name-body ul li,
+.page-node-5 #node-11 .field-name-body ul li{
+	font-size: 13px;
+	color: #333333;
+}
+/*Contact us page map link*/
+.page-node-2 .contact_page_box .live_map a {
+text-decoration: none;
+color:#213766;
+}
+.view-search-vamnians .views-exposed-widgets label {font-size:12px;}
+.view-search-vamnians .views-exposed-widgets #edit-field-first-name-value-wrapper label {margin-left:10px;}
+.page-node-2 #block-webform-client-block-1 #node-1 h2 a {
+font-size: 16px;
+margin-left: 8px;
+}
+
+.page-node-359 #quicktabs-container-program_calender_hindi .view-job-posting .views-field-php ul li{
+margin: 10px 0 0 0;
+}
+.page-node-137 #node-137 .content .field-name-body table{
+width: 700px !important; 
+}
+.view-notice-board-posts .view-content .views-field-title a,
+.view-latest-news-for-sitemap .view-content .views-field-title a{
+	text-decoration : none;
+	color : #333;
+	font-size:13px
+}
+/*new req hover issue*/
+.page-node-4 .region-sidebar-first .menu-block-4 ul li.expanded ul.menu li.leaf:hover {
+	background:#181818 !important;	
+}
+/*Alumni suggestion form*/
+.page-node-486 #webform-client-form-323 #webform-component-suggestion label {margin-right:10px;}
+
+/*Publication Subscribe Page--Eng and Hindi*/
+#node-509 .content,
+#node-508 .content {border: none !important;}
+#node-509 .content h1.page-title,
+#node-508 .content h1.page-title {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 10px 0;
+	font-weight: normal;
+	font-size: 22px;
+	color: #1f9a4a;
+	float: left;
+	border-bottom: none !important;
+}
+#node-509 .content h1.page-title > p,
+#node-508 .content h1.page-title > p {
+	font-size: 16px !important;
+}
+.neft_tab {
+	border-collapse: collapse;
+	margin: 10px 0;
+	width: 100%;
+}
+.neft_tab td {
+border: 1px solid #ccc;
+font-size: 14px;
+padding: 5px;
+color: #26488C;
+}
+.neft_tab1 {
+border-collapse: collapse;
+width: 100%;
+} 
+.neft_tab1 tr {
+vertical-align: top;
+}
+.neft_tab1 td {
+border: 1px solid #ccc;
+padding: 5px;
+color: #26488C;
+}
+a.neft_anchor{
+text-decoration: none !important;
+color: #333333 !important; 
+}
+a.neft_anchor:hover {
+color: #333333 !important;
+text-decoration: underline !important;
+}
+/*Related to PGDM Block in Popup positioning*/
+.page-node-287 .ui-dialog,
+.page-node-16 .ui-dialog {
+	width: 245px !important	;
+	left: 388px !important;
+	top: 350px !important;
+}
+.page-node-287 .view-batch-details td.cmpy_img,
+.page-node-16 .view-batch-details td.cmpy_img,
+.page-student-profiles .view-batch-details td.cmpy_img {
+	padding:0 !important;
+}
+/*Searching Exposed filter*/
+.page-node-16 .views-exposed-form {
+	border-bottom: 1px dotted #ccc;
+}
+
+.page-node-287 #edit-field-batches-tid-wrapper label,
+.page-node-287 #edit-field-std-grad-value-wrapper label,
+.page-node-16 #edit-field-batches-tid-wrapper label,
+.page-node-16 #edit-field-std-grad-value-wrapper label {color:#1f9a4a;}
+.profile h2 a{
+	color:#26488c !important; 
+}
+/*Student Records Details Page*/
+.node-type-student-records .node-student-records .content .field-label {
+	background-color: #ccc;
+	font-size: 14px;
+	0 ;
+	width:98%; margin-left:0; margin-right:0; margin-top:0; margin-bottom:10px; padding-left:10px; padding-right:0; padding-top:10px; padding-bottom:10px
+}
+
+.node-student-records .submitted span {color: #333333; }
+.node-student-records .submitted span a {color: #333333;text-decoration: none;}
+.node-student-records .submitted span a:hover{color: #333333;text-decoration: underline;}
+.node-type-student-records .node-student-records .content .field-items {
+	color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+	margin: 0;
+	padding: 10px 0px 10px 10px;
+	
+}
+.node-type-student-records .node-student-records .content .field-items  a {
+	color: #333333;
+	text-decoration: none;
+}
+
+/*Page Governers -- Realated to PGDM Block link*/
+.table_governers {
+border-collapse: collapse;
+}
+.table_governers tr {
+vertical-align: top;
+}
+.table_governers td {
+border: 1px solid #CCCCCC;
+padding: 5px;
+}
+.table_governers h1 {
+color: #26488C !important;
+font-size: 16px !important;
+margin: 0px 0px 4px 0px !important;
+border: none !important;
+font-weight: bold !important;
+}
+.table_governers p {
+color: #333333;
+font-size: 12px;
+line-height: 18px;
+padding: 0 !important;
+}
+.table_governers h3 {
+color: #1F9A4A;
+font-size: 14px;
+margin: 10px 0px 0px 0px;
+}
+.i18n-en a#quicktabs-tab-view__notice_board__block-1 {
+	/* margin: 0; */
+	font-size: 9px;
+}
+.i18n-hi a#quicktabs-tab-view__notice_board__block-1 {
+	margin: -9px;
+	font-size:11px;
+}
+.node-type-student-records #block-menu-block-4 ul li.menu-mlid-718 {
+	background: url('../images/menu-bg.jpg') repeat-x top left;
+	list-style-type:none !important
+}
+.node-type-student-records #block-menu-block-4 ul li.menu-mlid-718 a{
+	padding: 0 0 0 8px;
+	color: #121111;
+	font-size: 18px;
+	line-height: 40px;
+}
+.page-node-287 .view-batch-details h2 {
+	display: block !important;
+	
+}
+.page-node-108 #webform-client-form-110 {margin-top: -50px;	}
+.front .banner .content p {padding:0 0 5px 0;}
+
+.page-mou .inner_right {
+  width: 100%;
+}
+.page-mou .views-field.views-field-title > a {
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left !important;
+  text-decoration: none;
+}
+
+
+
+.view-pgdbm-compliance.view-display-id-page_5 td {
+  text-align: left;
+}
+
+.view-pgdbm-compliance.view-display-id-block_1 {
+  text-align: left;
+}
+
+
+.view-pgdbm-compliance.view-display-id-page_5 {
+  margin-bottom: 30px;
+}
+
+
+.view-pgdbm-compliance.view-display-id-block_1 td {
+    text-align: left;
+}
+
+
+th.views-field.views-field-counter {
+    width: 90px;
+}

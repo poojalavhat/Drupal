@@ -1,0 +1,25 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+function customplugin_theme() {
+//  return [
+//    'my_custom_form' => [
+//      'render element' => 'form',
+//    ],
+//  ];
+  
+  $theme['page__customplugin'] = [
+    'template' => 'page--customplugin',
+  ];
+
+	return $theme;
+}
+
+
+
+

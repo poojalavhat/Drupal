@@ -1,0 +1,7 @@
+## YAML Template.
+---
+name: Custom Entity
+description: It Creates custom node,taxonomy and user
+core: 8.x
+package: custom
+type: module
